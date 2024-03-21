@@ -1,0 +1,35 @@
+@import url('https://use.typekit.net/yab4iwr.css');
+
+:root {
+  --ifm-color-primary: #42a7c5;
+  --ifm-color-primary-dark: #3898b5;
+  --ifm-color-primary-darker: #3490ab;
+  --ifm-color-primary-darkest: #2b778d;
+  --ifm-color-primary-light: #56b0cb;
+  --ifm-color-primary-lighter: #60b5ce;
+  --ifm-color-primary-lightest: #7ec3d8;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'din-2014';
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+.navbar__brand {
+  margin: 0 !important;
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #0A233F;
+  --ifm-background-surface-color: #06121F;
+  --ifm-navbar-shadow: 0 0 20px #06121F;
+  color: white;
+}
+
+[data-theme='dark'] .navbar, [data-theme='dark'] .footer {
+  background-color: #06121F;
+}
+
+.menu {
+  border-right: 4px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to top, #FDB813, #58A738, #0072BC, #42A7C5);
+}

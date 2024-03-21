@@ -1,0 +1,46 @@
+.heroBanner {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  background: url(/img/banner-light.svg) bottom center no-repeat;
+  background-size: cover;
+  height: 85vh;
+  width: 100vw;
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #FDB813, #58A738, #0072BC, #42A7C5);
+  color: black;
+}
+
+.heroHeader {
+  font-size: 2rem;
+}
+
+.heroSubheader {
+  width: 60%;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 996px) {
+  .heroSubheader {
+    width: 80%;
+    font-size: 1rem;
+  }
+  .heroHeader {
+    font-size: 1.4rem;
+  }
+}
+
+[data-theme='dark'] .heroBanner {
+  background: url(/img/banner.svg) bottom center no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.heroBanner {
+  padding: 2rem;
+  margin: 0;
+}
