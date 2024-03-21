@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcatenary_docs=self.webpackChunkcatenary_docs||[]).push([[516],{3833:a=>{a.exports=JSON.parse('[{"label":"hello","permalink":"/catenary-docs/blog/tags/hello","count":1},{"label":"docusaurus","permalink":"/catenary-docs/blog/tags/docusaurus","count":1}]')}}]);

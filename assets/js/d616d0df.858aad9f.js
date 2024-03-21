@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcatenary_docs=self.webpackChunkcatenary_docs||[]).push([[842],{774:a=>{a.exports=JSON.parse('{"label":"hello","permalink":"/catenary-docs/blog/tags/hello","allTagsPath":"/catenary-docs/blog/tags","count":1,"unlisted":false}')}}]);

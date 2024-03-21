@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcatenary_docs=self.webpackChunkcatenary_docs||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Long Blog Post","permalink":"/catenary-docs/blog/long-blog-post","unlisted":false}]}')}}]);
