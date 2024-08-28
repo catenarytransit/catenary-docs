@@ -11,6 +11,9 @@ export default withNextra({
     ignoreDuringBuilds: true
   },
   output: 'export',
+  images: {
+    unoptimized: true
+  },
   webpack(config) {
     const allowedSvgRegex = /components\/icons\/.+\.svg$/
 
