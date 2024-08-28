@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Barlow', sans-serif !important;
+  overflow-x: hidden;
+}
+
+.nextra-card {
+  text-decoration: none !important;
+}
+
+.nextra-breadcrumb {
+  margin-bottom: 3vh;
+}
+
+.nextra-nav-container {
+  border-bottom: 4px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #F99C24, #c68025);
+}
+
+.home-content a {
+  --tw-ring-color: hsl(var(--nextra-primary-hue) var(--nextra-primary-saturation) 50%/0.3);
+  --tw-text-opacity: 1;
+  text-underline-position: under;
+  text-decoration-line: underline;
+  text-decoration-thickness: from-font;
+  color: hsl(var(--nextra-primary-hue) var(--nextra-primary-saturation) 50% / var(--tw-text-opacity));
+}
+
+figcaption {
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+  display: block;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+code.text-\[\.9em\] {
+  font-size: 14px;
+}
+
+
+.subtitle {
+  font-size: 1.3rem;
+  font-size: min(1.3rem, max(3.5vw, 1.2rem));
+  font-feature-settings: initial;
+  line-height: 1.6;
+}
+
+.content-container {
+  padding-left: max(env(safe-area-inset-left), 1.5rem);
+  padding-right: max(env(safe-area-inset-right), 1.5rem);
+  margin: 0 auto;
+}
+
+.home-content .content-container:has(> .subtitle) {
+  padding-left: max(env(safe-area-inset-left), 6rem);
+  padding-right: max(env(safe-area-inset-right), 6rem);
+  padding-bottom: 200px;
+  margin: 0;
+  width: 100vw !important;
+  text-align: center;
+}
+
+.light .home-content .content-container:has(> .subtitle) {
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(243, 244, 246, 1)), url('/banner.png') center center no-repeat;
+  background-size: cover;
+}
+
+.dark .home-content .content-container:has(> .subtitle) {
+  background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 1)), url('/banner.png') center center no-repeat;
+  background-size: cover;
+}
+
+.home-content .content-container:has(> .subtitle) {
+  padding-bottom: 140px;
+}
+
+.features-container {
+  padding-top: 0;
+  margin-top: 0 !important;
+}
+
+.features-container {
+  margin: 8rem 0 0;
+  padding-top: 4rem;
+  background-color: #f3f4f6;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.features-container .content-container {
+  max-width: 90rem;
+  margin-top: -8rem;
+}
+
+.dark .features-container {
+  background-color: #000;
+  border-bottom: 1px solid rgb(38, 38, 38);
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  font-size: min(1.3rem, max(3.5vw, 1.2rem));
+  font-feature-settings: initial;
+  line-height: 1.6;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* article.nextra-body-typesetting-article h1 {
+  text-align: left;
+} */
+
+.nextra-sidebar-container .nx-bottom-0 {
+  display: none;
+}

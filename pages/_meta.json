@@ -1,0 +1,30 @@
+{
+  "index": {
+    "type": "page",
+    "title": "Home",
+    "theme": {
+      "timestamp": false,
+      "layout": "raw"
+    }
+  },
+  "guide": {
+    "type": "page",
+    "title": "User Guide"
+  },
+  "platform": {
+    "type": "page",
+    "title": "Public API"
+  },
+  "projects": {
+    "type": "page",
+    "title": "All Projects"
+  },
+  "404": {
+    "type": "page",
+    "title": "Page Not Found",
+    "display": "hidden",
+    "theme": {
+      "timestamp": false
+    }
+  }
+}

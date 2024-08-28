@@ -1,0 +1,5 @@
+# Enunciator.js
+
+Enunciator.js is a JavaScript library intended for creating Passenger Information Display Systems (PIDS) interfaces using Catenary data. It's a great tool for riders who wear headphones on their commute but can't miss their stop, and for small agencies and businesses looking to implement custom PIDS without tons of overhead. It's built as an extension to the Catenary Public API SDK and provides additional tools and functionality to create PIDS-ready information (audio announcements, formatted arrival data, etc..) using the data returned from the Catenary Public API.
+
+Like any Catenary project - contributions are welcome and encouraged! Aside from code, however, Enunciator.js also benefits greatly from audio contributions! Even if you don't have the best mic or a pro setup, we'll help you make great-sounding announcements for your local agency! You can learn more about how to contribute (and some tips) in the [Enunciator.js contributor guide](/projects/enunciator/contributing)

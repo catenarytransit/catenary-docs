@@ -1,0 +1,9 @@
+{
+    "index": "Welcome",
+    "gts": {
+        "type": "separator",
+        "title": "Getting Started"
+    },
+    "layers": "Choose what you see on the map",
+    "track": "Track a vehicle along its route"
+}

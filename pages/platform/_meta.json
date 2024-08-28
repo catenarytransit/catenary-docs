@@ -1,0 +1,35 @@
+{
+    "index": {
+        "title": "API Intro",
+        "theme": {
+            "typesetting": "article"
+        }
+    },
+    "quickstart": {
+        "title": "Quick Start",
+        "theme": {
+            "typesetting": "article"
+        }
+    },
+    "ref": {
+        "type": "separator",
+        "title": "Reference"
+    },
+    "get-version": "Get API Version",
+    "more": {
+        "type": "separator",
+        "title": "More"
+    },
+    "design": {
+        "title": "Design Principles",
+        "theme": {
+            "typesetting": "article"
+        }
+    },
+    "samples": {
+        "title": "Sample Apps",
+        "theme": {
+            "typesetting": "article"
+        }
+    }
+}
