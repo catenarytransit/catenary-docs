@@ -68,12 +68,12 @@ code.text-\[\.9em\] {
 }
 
 .light .home-content .content-container:has(> .subtitle) {
-  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(243, 244, 246, 1)), url('/banner.png') center center no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(243, 244, 246, 1)), url('/banner.png') center center no-repeat;
   background-size: cover;
 }
 
 .dark .home-content .content-container:has(> .subtitle) {
-  background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 1)), url('/banner.png') center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('/banner.png') center center no-repeat;
   background-size: cover;
 }
 

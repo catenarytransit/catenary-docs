@@ -4,12 +4,11 @@ import { FaDiscord, FaGithub } from 'react-icons/fa'
 export function HomeSection() {
   return <div className="home-content">
     <div className="content-container md:px-[20vw] text-center">
-      <h1 className="text-5xl lg:text-6xl inline-block mt-8">
+      <h1 className="text-5xl lg:text-6xl inline-block mt-8 subtitle py-[40px]">
         <span className="leading-[3rem] md:leading-[3.5rem] font-semibold">
           Welcome to the Catenary Docs!
         </span>
       </h1>
-      <p className="subtitle !text-xl lg:!text-2xl my-8">Get resources for building with transit data, and help us make transit better for everyone.</p>
     </div>
     <div className="features-container">
       <div className="content-container">
@@ -31,6 +30,8 @@ export function HomeSection() {
           <a href='https://github.com/catenarytransit' className='!no-underline'><FaGithub className='inline mr-2' /> Explore Catenary projects and code on GitHub &rarr;</a>
           <br className='my-1 inline-block' />
           <a href='https://discord.gg/yVV6dguwtq' className='!no-underline'><FaDiscord className='inline mr-2' /> Chat with our community and get help on Discord &rarr;</a>
+          <br className='py-3 inline-block' />
+          <p className='text-sm pt-2 text-[#565a5c]'>Header image: <i>A Panorama of the City and History of Los Angeles</i><br />Sandow Birk, artist &middot; future Westwood/VA Hospital station</p>
         </div>
       </div>
     </div>

@@ -30,13 +30,13 @@ const config: DocsThemeConfig = {
     </Link>
   </>,
   logoLink: false,
-  banner: {
-    key: 'docs-alpha',
-    dismissible: false,
-    text: (
-      <>⚠️ This is a <b>very early alpha</b> and contains no real content!</>  
-    )
-  },
+  // banner: {
+  //   key: 'docs-alpha',
+  //   dismissible: false,
+  //   text: (
+  //     <>⚠️ This is a <b>very early alpha</b> and contains no real content!</>  
+  //   )
+  // },
   sidebar: {
     titleComponent({ title, type }) {
       if (type === 'separator') {
