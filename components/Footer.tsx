@@ -30,7 +30,7 @@ export default function Footer() {
                                     <Link
                                         key={index}
                                         href={socialLink.href}
-                                        className="hover:text-docs mr-3 flex justify-center items-center dark:text-white rounded-full py-2 hover:text-docs transition duration-150 ease-in-out"
+                                        className="hover:text-docs mr-3 flex justify-center items-center dark:text-white rounded-full py-2 hover:!text-docs transition duration-150 ease-in-out"
                                         aria-label={socialLink.alt}
                                     >
                                         {socialLink.icon}

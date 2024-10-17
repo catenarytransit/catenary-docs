@@ -1,9 +1,9 @@
 {
     "index": {
         "title": "Project Index",
+        "type": "page",
         "theme": {
             "typesetting": "article"
         }
-    },
-    "enunciator": "Enunciator.js"
+    }
 }
