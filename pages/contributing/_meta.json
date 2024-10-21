@@ -1,1 +1,12 @@
-{}
+{
+    "index": "An Intro to Catenary Development",
+    "gts": {
+        "type": "separator",
+        "title": "Table of Contents"
+    },
+    "basics": "Quickstart",
+    "database": "Database and Ingestion",
+    "distibuted": "Distributed Systems",
+    "routing": "Routing Engine",
+    "loom": "Automated Route Generation"
+}
