@@ -4,7 +4,7 @@
         "type": "separator",
         "title": "Table of Contents"
     },
-    "basics": "Quickstart",
+    "backend_basics": "Backend Quickstart",
     "database": "Database and Ingestion",
     "distibuted": "Distributed Systems",
     "routing": "Routing Engine",
