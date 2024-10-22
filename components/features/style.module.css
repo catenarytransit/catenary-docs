@@ -4,7 +4,7 @@
   color: #000;
   background-color: white;
   overflow: hidden;
-  border-radius: 1.78em;
+  border-radius: 1em;
 }
 .feature.large {
   grid-column: span 2;

@@ -14,15 +14,15 @@ export function HomeSection() {
       <div className="content-container">
         <Features>
           <Feature large={false} index={1} href={'/guide'}>
-            <h3 className='mb-2 !text-2xl'>Get started with <span className='underline decoration-docs'>Maps</span></h3>
+            <h3 className='mb-2 !text-2xl'>Get started with <span className='underline decoration-seashore'>Maps</span></h3>
             <p className='text-xl'>Get information on transit vehicles around you, plan trips, and discover communities with Catenary Maps!</p>
           </Feature>
           <Feature large={false} index={2} href={'/contributing'}>
-            <h3 className='mb-2 !text-2xl'><span className='underline decoration-docs'>Contribute</span> to Catenary</h3>
+            <h3 className='mb-2 !text-2xl'><span className='underline decoration-seashore'>Contribute</span> to Catenary</h3>
             <p className='text-xl'>Catenary is a community-driven project that cares about its developers. Learn how to get involved and how we&apos;re here for you.</p>
           </Feature>
           <Feature large={false} index={3} href={'/'}>
-            <h3 className='mb-2 !text-2xl'>Discover other Catenary <span className='underline decoration-docs'>projects</span></h3>
+            <h3 className='mb-2 !text-2xl'>Discover other Catenary <span className='underline decoration-seashore'>projects</span></h3>
             <p className='text-xl'>Our team is continually working to improve transit through multidisciplinary projects and experiments.</p>
           </Feature>
         </Features>

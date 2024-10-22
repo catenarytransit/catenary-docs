@@ -7,7 +7,7 @@ const currentYear = new Date().getFullYear()
 
 export default function Footer() {
     return (
-        <footer className='border-t-2 border-docs'>
+        <footer className='border-t-2 border-seashore'>
             <div className="py-6 md:py-10">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6">
                     <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-0">
@@ -17,27 +17,13 @@ export default function Footer() {
                                     <li className="mb-1" key={index}>
                                         <Link
                                             href={link.href}
-                                            className="hover:text-docs transition duration-150 ease-in-out"
+                                            className="hover:text-seashore transition duration-150 ease-in-out"
                                         >
                                             {link.text} <ChevronRight className="inline-block w-4 h-4" />
                                         </Link>
                                     </li>
                                 ))}
                             </ul>
-                            <ul className="flex md:order-1">
-                             {footerContent.socialLinks.map((socialLink, index) => (
-                                // <li className={''} key={index}>
-                                    <Link
-                                        key={index}
-                                        href={socialLink.href}
-                                        className="hover:text-docs mr-3 flex justify-center items-center dark:text-white rounded-full py-2 hover:!text-docs transition duration-150 ease-in-out"
-                                        aria-label={socialLink.alt}
-                                    >
-                                        {socialLink.icon}
-                                    </Link>
-                                // </li>
-                             ))}
-                         </ul>
                         </div>
                         <div className="md:col-span-4 lg:col-span-5 md:text-right">
                             <div className="mb-2">

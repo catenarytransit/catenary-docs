@@ -11,8 +11,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        docs: '#F99C24',
-        dimmed: '#C68025'
+        seashore: '#42A7C5',
+        docs: '#F99C24'
       }
     },
   },
