@@ -20,7 +20,7 @@ body {
 .nextra-nav-container {
   border-bottom: 4px solid;
   border-image-slice: 1;
-  border-image-source: linear-gradient(to right, #F99C24, #c68025);
+  border-image-source: linear-gradient(to right, #F99C24, #42a7c5);
 }
 
 .home-content a {
