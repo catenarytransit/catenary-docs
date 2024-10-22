@@ -1,12 +1,5 @@
 {
-    "index": "An Intro to Catenary Development",
-    "gts": {
-        "type": "separator",
-        "title": "Table of Contents"
-    },
-    "backend_basics": "Backend Quickstart",
-    "database": "Database and Ingestion",
-    "distibuted": "Distributed Systems",
-    "routing": "Routing Engine",
-    "loom": "Automated Route Generation"
+    "index": "Getting Started",
+    "backend": "Backend",
+    "frontend": "Frontend"
 }

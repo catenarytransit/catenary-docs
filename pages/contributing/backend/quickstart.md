@@ -1,4 +1,4 @@
-# Backend Quickstart Guide
+# Backend Quick Start Guide
 
 Flash lesson to getting started with the Catenary Backend
 

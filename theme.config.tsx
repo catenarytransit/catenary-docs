@@ -39,11 +39,6 @@ const config: DocsThemeConfig = {
   // },
   sidebar: {
     titleComponent({ title, type }) {
-      if (type === 'separator') {
-        return (
-          <div className='text-lg border-b'>{title}</div>
-        )
-      }
       if (title.startsWith('Get ')) {
         return <>
         <span className='border rounded-md px-1 font-medium mr-2 dark:text-white'>GET</span> {title.replace('Get ', '').trim()}</>
