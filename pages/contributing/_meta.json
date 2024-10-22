@@ -4,6 +4,8 @@
         "type": "separator",
         "title": "Table of Contents"
     },
+    "github": "GitHub Setup",
+    "workflow": "Workflow",
     "backend_basics": "Backend Quickstart",
     "database": "Database and Ingestion",
     "distibuted": "Distributed Systems",
