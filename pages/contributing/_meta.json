@@ -1,5 +1,7 @@
 {
     "index": "Getting Started",
+    "github": "GitHub",
+    "workflow": "workflow",
     "backend": "Backend",
     "frontend": "Frontend"
 }
