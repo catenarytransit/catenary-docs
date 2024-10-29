@@ -22,7 +22,7 @@ This is the process by which Catenary aquires, cleans, sorts, and then displays 
 
 Basically the process looks something like this:
 
-From [Transitland](https://www.transit.land/), we download each agency's real-time and static transit information into our system using a bunch of API connections. We read all of this data, and then search through it and then we re-match each feed with their operator. Then, we ingest (translation: extract data and then move it in batches) the real-time information and dynamically send it to our frontend.
+From [Transitland](https://www.transit.land/), we download each agency's transit information into our system using a bunch of API connections. We read all of this data, and then search through it and then we re-match each feed with their operator. Then, we ingest (translation: extract data and then move it in batches) the real-time information and dynamically send it to our frontend.
 
 This is a lot of information for our system to process, so we have to use algorithms to optimize the process. In addition, some requested agencies don't have their data formatted to the industry standard (**GTFS**, General Transit Feed Specification) which means we have to clean it up before we can throw it into our system!
 
