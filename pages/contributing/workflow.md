@@ -18,3 +18,4 @@ If you haven't joined our Discord, it's highly suggested for you to, because tha
 
 Catenary does not require nor have regular meetings like school clubs or professional organizations; we try to keep everything asynchronous since we have members from a large variety of backgrounds and time zones. We *do* have town-hall like events where we go over relavent topics to our development and activies, and smaller teams may decide to schedule discussions as well! In addition, if you see anyone in our Discord voice channels, feel free to join and listen and/or talk (respectfully, of course)—we're happy to explain what we're working on or just chat with our community!
 
+You can also try and contact us on our various social media accounts. If you're here, chances are you found us through one of them! 
