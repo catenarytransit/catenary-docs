@@ -20,9 +20,11 @@ Now, in particular, we want to find the **optimal path** between two locations, 
 
 Yes, and no. While this paper and course are amazing and informative, they don't include any working code—only code skeletons with suggestions at the most, and its taylored for object-oriented C++/Java, rather than Rust synatax. The course doesn't go over a full implementation of the paper either, only a program to count how many optimal transfer patterns it takes to travel from a random station A to all stations B connected to it. Unfortunatly, we need a working copy of this code. Which means, a lot of coding, testing, coding, testing, etc.
 
-### How does TP work?
+### How does TP code work?
 
-TBA
+1) Take a set of GTFS Schedule files (in its ZIP form) and read it. Turn this data into a Time Expanded Graph (TEG). Basically, rather than creating just one node per stop, it creates *three nodes every single time a vehicle reaches a stop*: One node to represent the vehicle's arrival, one node for its departure, and one node to represent a transition state to make any potential transfers. Also, use the GTFS Schedule to create a table of potential transfers between routes that a rider can take, such that given a time and two stations from two different routes, the table will return the transfer station between these routes. Both of these processes are done by [transit_networks.rs](https://github.com/catenarytransit/catenary-routing-engine/blob/main/src/transit_network.rs) in our code. 
+
+2) TBA, we're working on it!
 
 # [The Code](https://github.com/catenarytransit/catenary-routing-engine)
 That above is currently all we have for routing, thus far. The author is working on commenting all of the functions, but everything is a work in progress. Feel free to reach out to the Catenary devs via your prefered mode of contact and ask any questions you have!
