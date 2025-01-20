@@ -1,7 +1,7 @@
 {
     "index": "Getting Started",
     "github": "GitHub",
-    "gtfo": "General Transit Feed Specification (GTFS)",
+    "gtfs": "General Transit Feed Specification (GTFS)",
     "workflow": "Workflow",
     "backend": "Backend",
     "frontend": "Frontend"
