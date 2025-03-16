@@ -12,8 +12,8 @@ const config: DocsThemeConfig = {
   footer: {
     component: <Footer />
   },
-  primaryHue: 194,
-  primarySaturation: 53,
+  primaryHue: 174,
+  primarySaturation: 40,
   docsRepositoryBase: 'https://github.com/catenarytransit/catenary-docs/tree/main/',
   
   useNextSeoProps() {
@@ -22,7 +22,7 @@ const config: DocsThemeConfig = {
     }
   },
   logo: <>
-    <Link href='https://catenarymaps.org'><img src="https://catenarymaps.org/logo.svg" alt="Catenary logo" className='h-[35px] inline pr-2' /></Link>
+    <Link href='https://catenarymaps.org'><img src="/c-logo.svg" alt="Catenary logo" className='h-[35px] inline pr-2' /></Link>
     <span className='text-2xl mr-3 ml-1 cursor-default'>//</span>
     <Link href='/'>
       <img src="/logo.svg" alt="Catenary Docs logo" className='h-[35px] hidden lg:inline mr-2' />
@@ -51,8 +51,8 @@ const config: DocsThemeConfig = {
 
     return (
       <>
-        <meta name="msapplication-TileColor" content="#42a7c5" />
-        <meta name="theme-color" content="#42a7c5" />
+        <meta name="msapplication-TileColor" content="#00AB9B" />
+        <meta name="theme-color" content="#00AB9B" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="Content-Language" content="en" />
         <meta

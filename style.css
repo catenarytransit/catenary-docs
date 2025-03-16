@@ -17,10 +17,8 @@ body {
   margin-bottom: 3vh;
 }
 
-.nextra-nav-container {
-  border-bottom: 4px solid;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(to right, #F99C24, #42a7c5);
+a.nx-underline {
+  color: unset !important;
 }
 
 .home-content a {

@@ -6,7 +6,7 @@ export const footerContent = {
     logo: {
         link: 'https://catenarymaps.org',
         alt: 'Catenary',
-        src: 'https://catenarymaps.org/logomark.svg',
+        src: '/c-logomark.svg',
     },
     links: [
         {

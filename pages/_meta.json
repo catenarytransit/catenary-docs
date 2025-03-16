@@ -15,9 +15,9 @@
     "type": "page",
     "title": "Contributing"
   },
-  "projects": {
+  "publicapi": {
     "type": "page",
-    "title": "All Projects"
+    "title": "Public API"
   },
   "404": {
     "type": "page",
