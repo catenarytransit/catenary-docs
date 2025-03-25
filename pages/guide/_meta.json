@@ -1,9 +1,4 @@
 {
-    "index": {
-        "title": "User Guide",
-        "type": "page",
-        "theme": {
-            "typesetting": "article"
-        }
-    }
+    "index": "Welcome!",
+    "quickstart": "Quick Start Guide"
 }
