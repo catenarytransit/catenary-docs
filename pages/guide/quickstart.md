@@ -3,14 +3,17 @@ For the casual user!
 
 Feel free to open up the map and follow along! This means going to our website, over [here](https://maps.catenarymaps.org). (We're working on a downloadable version.)
 
-## Layers Menu
+## Display Menu
 
-<img src="../../examples/top_right_toggle.png" align="right" width="50">
 We know that having all the layers open can be very overwhelming for some, while others enjoy the hubbub of seeing everything we have to offer at once. So, we let you decide what you want to see!
 
-To toggle our layers, go to the top
+<img src="../../examples/top_right_toggle.png" align="right" width="50">
 
-<br clear="left"/>
+To toggle our layers, go to the top right hand corner and take a look at the layer (a stylized diamond shape) button, sitting on top of the compass (red arrow on top on the letter "N"). Click on the diamond, and a little box will pop up in the bottom right hand corner!
+
+
+The first row controls what transit features show up on the map. Let's call this the layer 
+![Map layer control ](../../examples/layer_bar.png)
  
 ## The Sidebar
 
