@@ -1,7 +1,8 @@
 # Map Features Overview
-For the casual user!
 
-Feel free to open up the map and follow along! This means going to our website, over [here](https://maps.catenarymaps.org). (We're working on a downloadable version.)
+*A quick guide to Catenary for the casual user!*
+
+Feel free to open up the map and follow along! This means going to our website, over [here](https://maps.catenarymaps.org). (We're working on making a downloadable version.)
 
 ## Display Menu
 
@@ -57,7 +58,7 @@ This is how to adjust settings and view detailed information on routes and vehic
 
 These are all user-interactable. Go ahead and give it a try!.
 
-# Using Nearby Departures
+## Using Nearby Departures
 
 The main feature of our sidebar is to show the Nearby Departures to either your location or where the purple pin is placed on the map!
 
@@ -66,3 +67,24 @@ For detailed methodology, you can check out the technical side of our docs for c
 You can click on a specific trip to see detailed information about it --- when the vehicle leaves its first stop, when it arrives at each subsequent stop, and how much its delayed or early by. This also highlights the route on the map as well, even if you don't have that map layer displayed! 
 
 If you want to return to a previous screen, press the Home button that shows up in place of the refresh symbol once you click on a specific route.
+
+## The Map
+
+Let's go over some basic navigation!
+
+**For PC Users:**
+- Left click and drag to move around the map
+- Use the scroll wheel (mouse) or pinch with two fingers (touchpad) to zoom in and out
+- Hold right click, and move mouse right/left (mouse) or drag finger right/left (touchpad) to change cardinal orientation
+- Hold right click, and move mouse up/down (mouse) or drag finger up/down (touchpad) to change the tilt (3D mode)
+
+**For Touchscreen Users:**
+- Tap and drag to move around the map
+- Pinch with two fingers to zoom in and out
+- Rotate with two fingers to change the cardinal orientation of the map
+- Drag up with two fingers to change the tilt of the map (3D mode)
+<br>
+
+<img src="../../examples/routes_from_spot.png" align="right" width="300">Click/tap on a spot on a map to see what displayed routes pass through that point! There will be a list of the routes on the sidebar. You can interact with these! If you click on a route from this list, it will highlight the line diagram on the map and show its trip variations on the sidebar.  This means you can see a list of the stops the route passes through, links to the transit agency, a PDF of headways (planned departures) if availble, and more. You can also get this view by clicking on vehicles, which will show the trip and the line diagram
+
+<img src="../../examples/route_from_list.png" align="middle" width="300"> 
