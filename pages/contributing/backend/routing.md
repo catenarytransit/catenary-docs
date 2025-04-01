@@ -13,9 +13,9 @@ By itself, it's a pretty simple idea: Each data point is represented as a **node
 Now, in particular, we want to find the **optimal path** between two locations, which means we'll be using algorithms related to graph traversal and shortest path algorithms. In particular, there's Dijkstra's algorithm, which basically explores all the possible paths coming out of a single node, and picks the shortest one to each other node connected to it. Keep in mind that we aren't always looking for the shortest path by distance, but the path that "costs" the least in some way or another, like least waiting time between transfers or least walking needed to reach a station. Meanwhile, we also need to take into account the schedules of the transit network on hand because unlike with cars, transit vehicles are conformed to stops along certain routes and they only pass through these stops once in a while, so everything has to be timed carefully (including to account for delays!)
 
 
-## Transfer Patterns (TP)
+## Stuff we read(Literature Review)
 
-### What is TP?
+### Transfer Patterns (TP)
 "Transfer Patterns" is short for *Fast Routing in Very Large Public Transportation Networks using Transfer Patterns*, the [research paper](https://ad.informatik.uni-freiburg.de/files/transferpatterns.pdf). This paper provided us a lot of ideas for how to start writing our own algorithm. 
 
 In this paper, the authors outlined how to compute, from transit data, the optimal transfer(s) to take to get from one point on the map to another. The term "transfer pattern" itself refers to the set of vehicles that a user could take to reach stop B from stop A (e.g. a potential TP in an imaginary transit network would be to take the metro Blue line from Main-Roosevelt to 2nd-Roosevelt, and then take the Green line from 1st-Roosevelt to Central Station). 
