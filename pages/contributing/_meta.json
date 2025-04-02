@@ -4,5 +4,6 @@
     "gtfs": "General Transit Feed Specification (GTFS)",
     "workflow": "Workflow",
     "backend": "Backend",
-    "frontend": "Frontend"
+    "frontend": "Frontend",
+    "nontechnical": "Nontechnical contributions"
 }
