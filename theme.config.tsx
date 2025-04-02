@@ -1,6 +1,9 @@
 import type { DocsThemeConfig } from 'nextra-theme-docs'
-import { Link, useConfig } from 'nextra-theme-docs'
+import { Link, LocaleSwitch, ThemeSwitch, useConfig } from 'nextra-theme-docs'
+import {locale_list} from './locales'
 import Footer from "./components/Footer";
+import { useRouter } from 'next/router';
+import { CatenaryStrings } from 'strings';
 
 const config: DocsThemeConfig = {
   project: {
@@ -12,10 +15,24 @@ const config: DocsThemeConfig = {
   footer: {
     component: <Footer />
   },
+  i18n: locale_list,
   primaryHue: 174,
-  primarySaturation: 40,
+  primarySaturation: 50,
   docsRepositoryBase: 'https://github.com/catenarytransit/catenary-docs/tree/main/',
-  
+  themeSwitch: {
+    useOptions() {
+      let { locale } = useRouter();
+
+      return {
+        light: CatenaryStrings.theme.light[locale],
+        dark: CatenaryStrings.theme.dark[locale],
+        system: CatenaryStrings.theme.system[locale],
+      }
+    }
+  },
+  search: {
+    component: <span className='hidden md:block'><span className='ml-1' /><ThemeSwitch /><LocaleSwitch /></span>,
+  },
   useNextSeoProps() {
     return {
       titleTemplate: '%s – Catenary Docs'
