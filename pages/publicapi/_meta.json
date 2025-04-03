@@ -1,9 +1,3 @@
 {
-    "index": {
-        "title": "Project Index",
-        "type": "page",
-        "theme": {
-            "typesetting": "article"
-        }
-    }
+    "index": "How to Use the API"
 }
