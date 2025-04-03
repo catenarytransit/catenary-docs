@@ -1,7 +1,7 @@
 import { footerContent } from './footer-content'
 import Link from 'next/link'
 import { ChevronRight } from 'lucide-react'
-import { ThemeSwitch } from 'nextra-theme-docs';
+import { LocaleSwitch, ThemeSwitch } from 'nextra-theme-docs';
 
 const currentYear = new Date().getFullYear()
 
@@ -43,6 +43,7 @@ export default function Footer() {
                                 Catenary helps connect people and communities with powerful transit data and algorithms.
                             </div>
                             <ThemeSwitch />
+                            <LocaleSwitch />
                         </div>
                     </div>
                 </div>
