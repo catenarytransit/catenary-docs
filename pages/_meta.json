@@ -19,6 +19,10 @@
     "type": "page",
     "title": "Public API"
   },
+  "style": {
+    "type": "page",
+    "title": "Style Guide"
+  },
   "404": {
     "type": "page",
     "title": "Page Not Found",
