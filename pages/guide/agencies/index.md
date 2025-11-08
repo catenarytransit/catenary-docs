@@ -22,7 +22,7 @@ The cities are numbered by the [size of their urban area](https://en.wikipedia.o
 8\. [São Paulo](saopaulo.md)
 10\. [Ciudad de México](cdmx.md)
 21\. Buenos Aires is **not supported**.
-31\. [Rio de Janeiro](rio.md)
+31\. [Rio de Janeiro](rio.md) - partial support
 42\. Lima is **not supported**.
 44\. [Bogotá](bogota.md)
 58\. [Santiago de Chile](santiago.md)
