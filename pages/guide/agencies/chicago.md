@@ -77,9 +77,18 @@ The progress of adding support for Chicagoland transit operators is tracked at t
 
 CTA realtime data is processed by [@catenarytransit/chicago-gtfs-rt](https://github.com/catenarytransit/chicago-gtfs-rt).
 
-If you want to improve our data/maps, [join our Discord](https://discord.gg/bBeDhrzSgz) and head to one of the following threads:
+If you want to improve our data/maps, [join our Discord](https://discord.gg/bBeDhrzSgz) and head to one of the following threads/channels:
 
+* [#general](https://discord.com/channels/1148092048625385552/1148092049413918772) - for problems unrelated to the specific agency
 * [Chicago (CTA)](https://discord.com/channels/1148092048625385552/1160489723463209010)
 * [Metra](https://discord.com/channels/1148092048625385552/1390099472788226078)
 * [Pace](https://discord.com/channels/1148092048625385552/1388148385323679815)
 * [Chicago-area small bus operators](https://discord.com/channels/1148092048625385552/1388199355336491118)
+
+Things we want to work on for Chicago:
+
+* [ ] Get working alerts from Pace (this is rather difficult)
+* [ ] Get alerts from CTA (there is a good API, that we have to write custom code to connect to)
+* [ ] Get working alerts from NICTD (there is also a good API we need to connect to)
+
+CTA will provide GTFS-RT in the future, so we don't currently want to convert their current bus position API.
