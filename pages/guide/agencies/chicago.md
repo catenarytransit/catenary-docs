@@ -36,6 +36,10 @@ Yes. Catenary provides live train locations and estimated departure times in Chi
 
 We also provide live bus locations in the Chicago suburbs, but unfortunately CTA does not provide live bus locations in a format we can use.
 
+### Does Catenary show service alerts in Chicago?
+
+We show service alerts for Metra trains. Unfortunately, CTA, Pace, and NICTD do not provide service alerts in a format we can use.
+
 ### Do I need to download an app?
 No. Catenary runs directly in your browser — just click [**Launch Catenary**](https://maps.catenarymaps.org/#pos=10/41.8652/-87.6198).
 
