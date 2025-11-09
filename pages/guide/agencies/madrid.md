@@ -1,6 +1,6 @@
 # Madrid
 
-Catenary is a transit app that helps you see where your bus or train is, anywhere in Madridland.  
+Catenary is a transit app that helps you see where your bus or train is, anywhere in Madrid and its suburbs.  
 Watch live departures, explore nearby stops, and check service alerts — all from one place.
 
 [**Launch Catenary**](https://maps.catenarymaps.org/#pos=10/41.8652/-87.6198)

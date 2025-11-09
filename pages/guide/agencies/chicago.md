@@ -12,8 +12,8 @@ With Catenary, you can see all of the bus routes and train lines operated by the
 ### Rail
 
 * **CTA 'L'** (rapid transit) is supported
-  * Realtime train positions are supported
-  * Predicted arrival times and alerts are not supported
+  * Realtime train positions and predicted arrival times are supported
+  * Alerts are not supported
 * **Metra** commuter rail is supported
   * Realtime train positions, predicted arrival times, and alerts are supported
 * **NICTD South Shore Line** (commuter rail) is supported
