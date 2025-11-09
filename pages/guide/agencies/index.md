@@ -19,15 +19,15 @@ The cities are numbered by the [size of their urban area](https://en.wikipedia.o
 
 ## Latin America and the Caribbean
 
-* [8] [São Paulo](saopaulo.md)  
-* [10] [Ciudad de México](cdmx.md)  
+* [8] [São Paulo](saopaulo.md)  - no realtime 
+* [10] [Ciudad de México](cdmx.md) - no realtime
 * [21] Buenos Aires is **not supported**.  
 * [31] [Rio de Janeiro](rio.md) - partial support  
 * [42] Lima is **not supported**.  
-* [44] [Bogotá](bogota.md)  
-* [58] [Santiago de Chile](santiago.md)  
+* [44] [Bogotá](bogota.md) - no realtime
+* [58] [Santiago de Chile](santiago.md) - no realtime
 * [71] Guadalajara is **not supported**.  
-* [74] [Belo Horizonte](belo-horizonte.md)  
+* [74] [Belo Horizonte](belo-horizonte.md)
 
 ## Europe
 
