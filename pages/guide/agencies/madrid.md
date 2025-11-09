@@ -75,23 +75,13 @@ Yes; in the top-right corner you can click on the "layer" icon...
 
 ## How to help out
 
-The progress of adding support for Madridland transit operators is tracked at the following spreadsheet:
-<https://docs.google.com/spreadsheets/d/15wKbfusysMrV_2lPuMFXCFsSg-TPV31qtbukZi4sEmU/edit>
-
-CTA realtime data is processed by [@catenarytransit/Madrid-gtfs-rt](https://github.com/catenarytransit/Madrid-gtfs-rt).
-
 If you want to improve our data/maps, [join our Discord](https://discord.gg/bBeDhrzSgz) and head to one of the following threads/channels:
 
 * [#general](https://discord.com/channels/1148092048625385552/1148092049413918772) - for problems unrelated to the specific agency
-* [Madrid (CTA)](https://discord.com/channels/1148092048625385552/1160489723463209010)
-* [Metra](https://discord.com/channels/1148092048625385552/1390099472788226078)
-* [Pace](https://discord.com/channels/1148092048625385552/1388148385323679815)
-* [Madrid-area small bus operators](https://discord.com/channels/1148092048625385552/1388199355336491118)
+* [Madrid](https://discord.com/channels/1148092048625385552/1437116883609325569)
 
 Things we want to work on for Madrid:
 
-* [ ] Get working alerts from Pace (this is rather difficult)
-* [ ] Get alerts from CTA (there is a good API, that we have to write custom code to connect to)
-* [ ] Get working alerts from NICTD (there is also a good API we need to connect to)
+* [ ] Find a source of realtime data for Metro and Metro Ligero
+* [ ] Try to find realtime bus data
 
-CTA will provide GTFS-RT in the future, so we don't currently want to convert their current bus position API.
