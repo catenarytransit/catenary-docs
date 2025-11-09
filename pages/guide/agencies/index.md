@@ -34,7 +34,7 @@ The cities are numbered by the [size of their urban area](https://en.wikipedia.o
 * [20] Moscow is **not supported**.  
 * [28] Istanbul is **not supported**.  
 * [37] [London](london.md) - partial support
-* [38] [Paris](paris.md)  
+* [38] [Paris](paris.md) - no realtime
 * [65] [Madrid](madrid.md)  
 * [73] Sankt-Petersburg (Saint Petersburg) is **not supported**.  
 * [75] [Barcelona](barcelona.md)  
