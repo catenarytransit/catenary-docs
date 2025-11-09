@@ -29,13 +29,11 @@ With Catenary, you can see all of the bus routes and train lines operated by the
 ## Frequently asked questions
 
 ### Does Catenary show real-time data in Madrid?
-Yes. Catenary provides live train locations and estimated departure times in Madrid.
-
-We also provide live bus locations in the Madrid suburbs, but unfortunately CTA does not provide live bus locations in a format we can use.
+We show realtime data for Renfe Cercanías trains. Unfortunately, we do not have realtime data for other operators.
 
 ### Does Catenary show service alerts in Madrid?
 
-We show service alerts for Metra trains. Unfortunately, CTA, Pace, and NICTD do not provide service alerts in a format we can use.
+We show service alerts for Renfe Cercanías trains and EMT Madrid buses. Unfortunately, we do not have service alerts for other operators.
 
 ### Do I need to download an app?
 No. Catenary runs directly in your browser — just click [**Launch Catenary**](https://maps.catenarymaps.org/#pos=10/41.8652/-87.6198).
@@ -84,4 +82,5 @@ Things we want to work on for Madrid:
 
 * [ ] Find a source of realtime data for Metro and Metro Ligero
 * [ ] Try to find realtime bus data
+* [ ] Fix the shapes of the intercity routes without shapefiles, which currently clutter up the map
 
