@@ -1,3 +1,97 @@
 # Madrid
 
+Catenary is a transit app that helps you see where your bus or train is, anywhere in Madridland.  
+Watch live departures, explore nearby stops, and check service alerts — all from one place.
 
+[**Launch Catenary**](https://maps.catenarymaps.org/#pos=10/41.8652/-87.6198)
+
+## Supported agencies
+
+With Catenary, you can see all of the bus routes and train lines operated by the following agencies, view upcoming departures, and view their timetables. Also, some of them provide realtime data, so you can know if your train/bus is late and see individual vehicles on the map.
+
+### Rail
+
+* **Madrid Metro** is supported
+  * No realtime data is available
+* **Renfe Cercanías** commuter rail is supported
+  * Realtime train positions, predicted arrival times, and alerts are supported
+* **Metro Ligero** light rail is supported
+  * No realtime data is available
+
+### Bus
+
+* **EMT Madrid** buses are supported
+  * Service alerts are available
+  * No other realtime data is available
+* **Consorcio Regional de Transportes de Madrid** buses are supported
+  * No realtime data is available
+
+## Frequently asked questions
+
+### Does Catenary show real-time data in Madrid?
+Yes. Catenary provides live train locations and estimated departure times in Madrid.
+
+We also provide live bus locations in the Madrid suburbs, but unfortunately CTA does not provide live bus locations in a format we can use.
+
+### Does Catenary show service alerts in Madrid?
+
+We show service alerts for Metra trains. Unfortunately, CTA, Pace, and NICTD do not provide service alerts in a format we can use.
+
+### Do I need to download an app?
+No. Catenary runs directly in your browser — just click [**Launch Catenary**](https://maps.catenarymaps.org/#pos=10/41.8652/-87.6198).
+
+### Is Catenary free to use?
+Yes. It’s completely free and works on mobile or desktop.
+
+### When does the next bus/train arrive?
+
+[**Launch Catenary**](https://maps.catenarymaps.org/#pos=10/41.8652/-87.6198) and search for your stop, or zoom in to find it. After clicking on the stop, the next arrivals will show up.
+
+### Which bus stop or train station is closest to me?
+
+[**Launch Catenary**](https://maps.catenarymaps.org/#pos=10/41.8652/-87.6198) and your current location will appear. You can browse the map to find the nearest stop.
+
+### I only care about trains; can I hide the buses?
+
+Yes; in the top-right corner you can click on the "layer" icon...
+
+![alt text](find-layers-button.png)
+
+... and hide what you don't want to see:
+
+![alt text](layers-popup.png)
+
+## Diagrams and PDF maps
+
+* Official maps
+  * [Entire rail system diagram](https://www.crtm.es/media/dule5x5k/serie_0c_esqredintegrada.pdf)
+  * [Madrid Metro diagram](https://www.metromadrid.es/sites/default/files/documentos/Viaja%20en%20Metro/Planos/Planoesquematico.pdf)
+  * [Renfe Cercanías diagram](https://www.renfe.com/content/dam/renfe/es/Viajeros/Secciones/Cercanias/Mapas/2025/Mapa_Madrid_Cercanias.pdf)
+  * [More official maps (Madrid Metro)](https://www.metromadrid.es/en/travel-in-the-metro/metro-de-madrid-maps)
+  * [More official maps (CRTM)](https://www.crtm.es/muevete-por-madrid/planos-de-transporte/planos/)
+* INAT maps by Jug Cerović
+  * [Metro and Cercanías (2014)](https://www.inat.fr/files/madrid-metro-subway-map.png)
+  * [Metro, Cercanías, and bus (2021)](https://www.inat.fr/files/madrid_mapa_autobus_metro.pdf)
+
+## How to help out
+
+The progress of adding support for Madridland transit operators is tracked at the following spreadsheet:
+<https://docs.google.com/spreadsheets/d/15wKbfusysMrV_2lPuMFXCFsSg-TPV31qtbukZi4sEmU/edit>
+
+CTA realtime data is processed by [@catenarytransit/Madrid-gtfs-rt](https://github.com/catenarytransit/Madrid-gtfs-rt).
+
+If you want to improve our data/maps, [join our Discord](https://discord.gg/bBeDhrzSgz) and head to one of the following threads/channels:
+
+* [#general](https://discord.com/channels/1148092048625385552/1148092049413918772) - for problems unrelated to the specific agency
+* [Madrid (CTA)](https://discord.com/channels/1148092048625385552/1160489723463209010)
+* [Metra](https://discord.com/channels/1148092048625385552/1390099472788226078)
+* [Pace](https://discord.com/channels/1148092048625385552/1388148385323679815)
+* [Madrid-area small bus operators](https://discord.com/channels/1148092048625385552/1388199355336491118)
+
+Things we want to work on for Madrid:
+
+* [ ] Get working alerts from Pace (this is rather difficult)
+* [ ] Get alerts from CTA (there is a good API, that we have to write custom code to connect to)
+* [ ] Get working alerts from NICTD (there is also a good API we need to connect to)
+
+CTA will provide GTFS-RT in the future, so we don't currently want to convert their current bus position API.
