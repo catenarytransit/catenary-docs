@@ -67,7 +67,7 @@ Please note that mainland China, Taiwan, South Korea, and North Korea are not su
 * [1] [Tokyo](tokyo.md) - limited support  
 * [26] [Keihanshin (including Osaka, Kyoto, Kobe)](keihanshin.md) - very limited support  
 * [45] [Nagoya](nagoya.md) - very limited support  
-* [56] [Hong Kong](hongkong.md)  
+* [56] [Hong Kong](hongkong.md) - limited support
 * [80] [Fukuoka](fukuoka.md) - very limited support  
 
 ## Southeast Asia
