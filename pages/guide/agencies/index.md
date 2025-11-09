@@ -8,7 +8,7 @@ The cities are numbered by the [size of their urban area](https://en.wikipedia.o
 
 * [12] [New York City](nyc.md)  
 * [24] [Los Angeles (and Orange County, and Inland Empire)](la.md)  
-* [46] [Chicago](chicago.md)  
+* [46] [Chicago](chicago.md) - limited realtime data, full support for static data
 * [55] [Washington, DC](washington.md)  
 * [59] [Dallas-Fort Worth](dfw.md)  
 * [61] [Toronto](toronto.md)  
@@ -27,7 +27,7 @@ The cities are numbered by the [size of their urban area](https://en.wikipedia.o
 * [44] [Bogotá](bogota.md) - no realtime
 * [58] [Santiago de Chile](santiago.md) - no realtime
 * [71] Guadalajara is **not supported**.  
-* [74] [Belo Horizonte](belo-horizonte.md)
+* [74] [Belo Horizonte](belo-horizonte.md) - partial support
 
 ## Europe
 
@@ -35,7 +35,7 @@ The cities are numbered by the [size of their urban area](https://en.wikipedia.o
 * [28] Istanbul is **not supported**.  
 * [37] [London](london.md) - partial support
 * [38] [Paris](paris.md) - no realtime
-* [65] [Madrid](madrid.md)  
+* [65] [Madrid](madrid.md) - limited realtime data, full support for static data
 * [73] Sankt-Petersburg (Saint Petersburg) is **not supported**.  
 * [75] [Barcelona](barcelona.md)  
 

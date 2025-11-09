@@ -5,6 +5,7 @@
 * [Railway network diagram, provided by SUICA/PASMO](https://www.pasmo.co.jp/visitors/assets/pdf/common/all.pdf)
 * [Unofficial railway network diagram, made by FML](https://drive.google.com/file/d/18P8pcGXxKAkktimRRBbiGpJxVGwN3fF_/view)
   * [Detail of Central Tokyo](https://drive.google.com/file/d/1cY-yp4pj71fewkEyG3zoG_H5oT66bWzD/view)
+* [INAT unofficial map (Central Tokyo, 2014)](https://www.inat.fr/files/tokyo-metro-subway-map.png)
 
 ## Rail operators
 
