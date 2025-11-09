@@ -38,7 +38,7 @@ We provide live bus locations and estimated departure times in London, for opera
 
 Unfortunately, we do not have real-time train data.
 
-### Does Catenary show service alerts in Chicago?
+### Does Catenary show service alerts in London?
 
 We provide service alerts for operators which provide their data to the [Bus Open Data Service](https://www.bus-data.dft.gov.uk/) of the Department for Transport.
 
