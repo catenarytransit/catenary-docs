@@ -22,11 +22,11 @@ We support bus operators whose [data is provided by Île-de-France Mobilités](h
 
 ## Frequently asked questions
 
-### Does Catenary show real-time data in São Paulo?
+### Does Catenary show real-time data in Paris?
 
 Unfortunately, no. The available data is not in a format we can use.
 
-### Does Catenary show service alerts in São Paulo?
+### Does Catenary show service alerts in Paris?
 
 Unfortunately, no. The available data is not in a format we can use.
 
