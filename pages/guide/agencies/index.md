@@ -37,7 +37,7 @@ The cities are numbered by the [size of their urban area](https://en.wikipedia.o
 * [38] [Paris](paris.md) - no realtime
 * [65] [Madrid](madrid.md) - limited realtime data, full support for static data
 * [73] Sankt-Petersburg (Saint Petersburg) is **not supported**.  
-* [75] [Barcelona](barcelona.md)  
+* [75] [Barcelona](barcelona.md) - very good support
 
 ## Middle East
 
@@ -74,7 +74,7 @@ Please note that mainland China, Taiwan, South Korea, and North Korea are not su
 
 * [2] [Jakarta](jakarta.md) - limited support  
 * [6] Manila is **not supported**.  
-* [17] [Bangkok (Krung Thep Maha Nakhon)](bangkok.md)  
+* [17] [Bangkok (Krung Thep Maha Nakhon)](bangkok.md) - no realtime
 * [25] Ho Chi Minh City (Sai Gon, Saigon) is **not supported**.  
 * [48] [Klang Valley (Kuala Lumpur, Putrajaya)](klang-valley.md)  
 * [60] Yangon (Rangoon) is **not supported**.  

@@ -26,7 +26,7 @@ We support bus operators whose [data is provided by Île-de-France Mobilités](h
 
 Unfortunately, no. The available data is not in a format we can use.
 
-### Does Catenary show service alerts in Paris?
+### Does Catenary show service alerts in São Paulo?
 
 Unfortunately, no. The available data is not in a format we can use.
 
