@@ -76,7 +76,7 @@ Please note that mainland China, Taiwan, South Korea, and North Korea are not su
 * [6] Manila is **not supported**.  
 * [17] [Bangkok (Krung Thep Maha Nakhon)](bangkok.md) - no realtime
 * [25] Ho Chi Minh City (Sai Gon, Saigon) is **not supported**.  
-* [48] [Klang Valley (Kuala Lumpur, Putrajaya)](klang-valley.md)  
+* [48] [Klang Valley (Kuala Lumpur, Putrajaya)](klang-valley.md) - decent support
 * [60] Yangon (Rangoon) is **not supported**.  
 * [69] [Singapore](singapore.md)  
 
