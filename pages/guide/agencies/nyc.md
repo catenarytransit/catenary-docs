@@ -23,10 +23,10 @@ With Catenary, you can see all of the bus routes and train lines operated by the
   * No realtime data is available
 * Port Authority Trans-Hudson
   * No realtime data is available
-* Amtrak and CTtransit Shore Line East
+* Amtrak and CTrail Shore Line East
   * Realtime train positions, predicted arrival times, and alerts are supported
-* CTtransit Hartford Line
-  * It is unknown if realtime data is provided by CTtransit
+* CTrail Hartford Line
+  * No realtime data is available
 
 ### Bus
 
