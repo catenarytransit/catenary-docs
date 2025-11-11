@@ -25,7 +25,7 @@ The cities are numbered by the [size of their urban agglomeration](https://cityp
 
 * [25M] [Ciudad de México](cdmx.md) - no realtime
 * [23M] [São Paulo](saopaulo.md)  - no realtime 
-* [16M] Buenos Aires is **not supported**.  
+* [16M] Buenos Aires TODO - limited support
 * [14M] [Rio de Janeiro](rio.md) - partial support  
 * [12M] Lima is **not supported**.  
 * [11M] [Bogotá](bogota.md) - no realtime
@@ -40,12 +40,12 @@ The cities are numbered by the [size of their urban agglomeration](https://cityp
 * [16M] Istanbul is **not supported**.  
 * [15M] [London](london.md) - partial support
 * [12M] [Paris](paris.md) - no realtime
-* [11M] Rhine-Ruhr TODO
+* [11M] Rhine-Ruhr (Rhein-Ruhr) TODO
 * [7M] [Madrid](madrid.md) - limited realtime data, full support for static data
 * [6M] Sankt-Petersburg (Saint Petersburg) is **not supported**.
 * [6M] Milan TODO 
 * [6M] Manchester-Liverpool TODO
-* [120] [Barcelona](barcelona.md) - very good support
+* [5M] [Barcelona](barcelona.md) - very good support
 
 ## Middle East
 
@@ -97,9 +97,9 @@ Please note that mainland China, Taiwan, South Korea, and North Korea are not su
 * [14M] Saigon (Sài Gòn, Thành Phố Hồ Chí Minh) is **not supported**.
 * [10M] [Klang Valley (Kuala Lumpur, Putrajaya)](klang-valley.md) - decent support
 * [8M] [Singapore](singapore.md)  
-* [7M] Hanoi (Hà Nội) TODO
-* [7M] Bandung TODO
-* [6M] Surabaya TODO
+* [7M] Hanoi (Hà Nội) is **not supported**.
+* [7M] Bandung is **not supported**.
+* [6M] Surabaya is **not supported**.
 * [6M] Yangon (Rangoon) is **not supported**.  
 
 ## South Asia
