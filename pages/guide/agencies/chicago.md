@@ -40,6 +40,10 @@ We also provide live bus locations in the Chicago suburbs, but unfortunately CTA
 
 We show service alerts for Metra trains. Unfortunately, CTA, Pace, and NICTD do not provide service alerts in a format we can use.
 
+### Can I see which track my train will be departing from?
+
+No, we do not have this data. The only way you can find out is by viewing the departures board at your station; no app or website at all provides track numbers for upcoming departures in Chicago.
+
 ### Do I need to download an app?
 No. Catenary runs directly in your browser — just click [**Launch Catenary**](https://maps.catenarymaps.org/#pos=10/41.8652/-87.6198).
 
