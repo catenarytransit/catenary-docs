@@ -71,6 +71,9 @@ Yes; in the top-right corner you can click on the "layer" icon...
 * [Metro rail and regional rail diagram](https://cdn.beta.metro.net/wp-content/uploads/2025/09/19112839/26-0250_blt_GM_MlinkAmtrak_47x47.5_DCR.pdf)
 * [Metro rail diagram](https://cdn.beta.metro.net/wp-content/uploads/2025/09/18122631/26-0150_map_GM_Master_Sept25_DCR_final.pdf)
 * [Metrolink (regional rail) diagram](https://metrolinktrains.com/globalassets/metrolink-system-map-may-2024.pdf)
+
+### Buses
+* [LA County bus map](https://cdn.beta.metro.net/wp-content/uploads/2025/09/18122518/26-0248_blt_system_map_47x47.5_DCR_final.pdf)
 * [More maps by LA Metro](https://www.metro.net/riding/guide/system-maps/)
 
 ## How to help out
