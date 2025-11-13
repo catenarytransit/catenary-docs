@@ -3,7 +3,7 @@
 Catenary is a transit app that helps you see where your bus or train is, anywhere in Washingtonland.  
 Watch live departures, explore nearby stops, and check service alerts — all from one place.
 
-[**Launch Catenary**](https://maps.catenarymaps.org/#pos=10/41.8652/-87.6198)
+[**Launch Catenary**](https://maps.catenarymaps.org/#pos=11.32/38.9011/-77.0402)
 
 ## Supported agencies
 
@@ -59,18 +59,18 @@ We show service alerts for most, but not all, train and bus operators -- see the
 No, we do not have this data. The only way you can find out is by viewing the departures board at your station; no app or website at all provides track numbers for upcoming departures in Washington.
 
 ### Do I need to download an app?
-No. Catenary runs directly in your browser — just click [**Launch Catenary**](https://maps.catenarymaps.org/#pos=10/41.8652/-87.6198).
+No. Catenary runs directly in your browser — just click [**Launch Catenary**](https://maps.catenarymaps.org/#pos=11.32/38.9011/-77.0402).
 
 ### Is Catenary free to use?
 Yes. It’s completely free and works on mobile or desktop.
 
 ### When does the next bus/train arrive?
 
-[**Launch Catenary**](https://maps.catenarymaps.org/#pos=10/41.8652/-87.6198) and search for your stop, or zoom in to find it. After clicking on the stop, the next arrivals will show up.
+[**Launch Catenary**](https://maps.catenarymaps.org/#pos=11.32/38.9011/-77.0402) and search for your stop, or zoom in to find it. After clicking on the stop, the next arrivals will show up.
 
 ### Which bus stop or train station is closest to me?
 
-[**Launch Catenary**](https://maps.catenarymaps.org/#pos=10/41.8652/-87.6198) and your current location will appear. You can browse the map to find the nearest stop.
+[**Launch Catenary**](https://maps.catenarymaps.org/#pos=11.32/38.9011/-77.0402) and your current location will appear. You can browse the map to find the nearest stop.
 
 ### I only care about trains; can I hide the buses?
 
