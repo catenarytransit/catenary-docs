@@ -1,6 +1,6 @@
 # Washington, DC
 
-Catenary is a transit app that helps you see where your bus or train is, anywhere in Washingtonland.  
+Catenary is a transit app that helps you see where your bus or train is, anywhere in Washington, DC and its suburbs.  
 Watch live departures, explore nearby stops, and check service alerts — all from one place.
 
 [**Launch Catenary**](https://maps.catenarymaps.org/#pos=11.32/38.9011/-77.0402)
