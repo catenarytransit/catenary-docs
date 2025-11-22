@@ -27,6 +27,10 @@ With Catenary, you can see all of the bus routes and train lines operated by the
   * Realtime train positions, predicted arrival times, and alerts are supported
 * CTrail Hartford Line
   * No realtime data is available
+* Hudson-Bergen Light Rail
+  * No realtime data is available
+* Newark Light Rail, including Newark City Subway
+  * No realtime data is available
 
 ### Bus
 
@@ -62,8 +66,6 @@ With Catenary, you can see all of the bus routes and train lines operated by the
 
 ### Rail
 
-* Hudson-Bergen Light Rail
-* Newark Light Rail, including Newark City Subway
 * AirTrain JFK
 
 ### Bus
@@ -78,17 +80,11 @@ With Catenary, you can see all of the bus routes and train lines operated by the
 ## Frequently asked questions
 
 ### Does Catenary show real-time data in New York City?
-Yes. Catenary provides live train locations and estimated departure times in New York City.
-
-We also provide live bus locations in the New York City suburbs, but unfortunately CTA does not provide live bus locations in a format we can use.
+Yes. Catenary provides live train locations and estimated departure times in New York City and its suburbs, for most operators (see the above list). Some operators are not supported.
 
 ### Does Catenary show service alerts in New York City?
 
-We show service alerts for Metra trains. Unfortunately, CTA, Pace, and NICTD do not provide service alerts in a format we can use.
-
-### Can I see which track my train will be departing from?
-
-No, we do not have this data. We're working on getting this data available, though.
+Yes. Catenary provides service alerts in New York City and its suburbs, for most operators (see the above list).  Some operators are not supported.
 
 ### Do I need to download an app?
 No. Catenary runs directly in your browser — just click [**Launch Catenary**](https://maps.catenarymaps.org/#pos=11.5/40.7358/-74.0011).
@@ -160,45 +156,7 @@ Note that most of these buses are also on Catenary Maps!
 
 * [More MTA maps and diagrams](https://www.mta.info/maps)
 
-## Frequently asked questions
-
-### Does Catenary show real-time data in New York City?
-Yes. Catenary provides live train locations and estimated departure times in New York City and its suburbs, for most operators (see the above list). Some operators are not supported.
-
-### Does Catenary show service alerts in New York City?
-
-Yes. Catenary provides service alerts in New York City and its suburbs, for most operators (see the above list).  Some operators are not supported.
-
-### Do I need to download an app?
-No. Catenary runs directly in your browser — just click [**Launch Catenary**](https://maps.catenarymaps.org/#pos=11.5/40.7358/-74.0011).
-
-### Is Catenary free to use?
-Yes. It’s completely free and works on mobile or desktop.
-
-### When does the next bus/train arrive?
-
-[**Launch Catenary**](https://maps.catenarymaps.org/#pos=11.5/40.7358/-74.0011) and search for your stop, or zoom in to find it. After clicking on the stop, the next arrivals will show up.
-
-### Which bus stop or train station is closest to me?
-
-[**Launch Catenary**](https://maps.catenarymaps.org/#pos=11.5/40.7358/-74.0011) and your current location will appear. You can browse the map to find the nearest stop.
-
-### I only care about trains; can I hide the buses?
-
-Yes; in the top-right corner you can click on the "layer" icon...
-
-![alt text](find-layers-button.png)
-
-... and hide what you don't want to see:
-
-![alt text](layers-popup.png)
-
 ## How to help out
-
-The progress of adding support for New York Cityland transit operators is tracked at the following spreadsheet:
-<https://docs.google.com/spreadsheets/d/15wKbfusysMrV_2lPuMFXCFsSg-TPV31qtbukZi4sEmU/edit>
-
-CTA realtime data is processed by [@catenarytransit/New York City-gtfs-rt](https://github.com/catenarytransit/New York City-gtfs-rt).
 
 If you want to improve our data/maps, [join our Discord](https://discord.gg/bBeDhrzSgz) and head to one of the following threads/channels:
 
@@ -212,6 +170,5 @@ Things we want to work on for New York:
 * [ ] Check if the AirTrain Newark data is correct, it seems to have been manually created by Transitland
 * [ ] Manually create some data for AirTrain JFK
 * [ ] Check if CTtransit Hartford Line has realtime data
-* [ ] Add support for NJ Transit light rail
 * [ ] Add track numbers to realtime data at major stations
 * [ ] Get realtime data for PATH and NJ Transit light rail
