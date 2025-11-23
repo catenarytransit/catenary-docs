@@ -17,8 +17,9 @@ With Catenary, you can see all of the bus routes and train lines operated by the
   * Realtime train positions, predicted arrival times, and alerts are supported
   * Track numbers are available
 * **Amtrak** trains are supported
-  * Realtime train positions, predicted arrival times, and alerts are supported
+  * Realtime train positions and predicted arrival times are supported
   * Track numbers are available
+  * Alerts are available for all trains except *Pacific Surfliner*
 
 ### Bus
 
@@ -86,4 +87,5 @@ If you want to improve our data/maps, [join our Discord](https://discord.gg/bBeD
 Things we want to work on for Los Angeles:
 * [x] Alerts for OCTA
   * See <https://github.com/catenarytransit/octa-gtfs-rt-alerts>
+* [ ] Alerts for Pacific Surfliner
 * [ ] Document our support for smaller local operators
