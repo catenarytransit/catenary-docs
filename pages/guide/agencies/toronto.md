@@ -42,7 +42,7 @@ We do not have service alerts for the TTC subway.
 
 ### Can I see which track my train will be departing from?
 
-No, we do not have this data. The only way you can find out is by viewing the departures board at your station; no app or website at all provides track numbers for upcoming departures in Toronto.
+No, we do not have this data.
 
 ### Do I need to download an app?
 No. Catenary runs directly in your browser — just click [**Launch Catenary**](https://maps.catenarymaps.org/#pos=11.36/43.7128/-79.4339).
